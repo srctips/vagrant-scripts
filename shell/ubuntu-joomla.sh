@@ -9,8 +9,8 @@ FLUSH PRIVILEGES;
 SCRIPT
 
 cd /tmp
-wget http://joomlacode.org/gf/download/frsrelease/20021/162256/Joomla_3.4.1-Stable-Full_Package.tar.gz
-tar -xvzf Joomla_3.4.1-Stable-Full_Package.tar.gz -C /var/www/html
+wget https://github.com/joomla/joomla-cms/releases/download/3.5.0/Joomla_3.5.0-Stable-Full_Package.tar.gz
+tar -xvzf Joomla_3.5.0-Stable-Full_Package.tar.gz -C /var/www/html
 sudo rm /var/www/html/index.html
 
 cat >> /var/www/html/info.php <<SCRIPT
